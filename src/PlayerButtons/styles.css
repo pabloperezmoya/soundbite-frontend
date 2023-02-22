@@ -1,0 +1,44 @@
+.player-buttons-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-button{
+  background: rgba(255, 255, 255, 0.03);
+  
+  border: 1px transparent rgba(255, 255, 255, 0.3);
+  border-radius: 200px;
+  background: transparent;
+  
+  padding: 0 0.5rem 0 0.5rem;
+  transition: color .25s;
+}
+
+.player-button svg{
+  width: 3rem;
+  height: 2rem;
+}
+
+.player-button:hover{
+  border: 1px solid transparent;
+  color: rgba(100, 108, 255, 0.7);
+}
+
+.player-button:active, .player-button:focus, .player-button:active:focus{
+  outline: none;
+}
+
+.player-button.toggle{
+  color: rgba(100, 108, 255, 0.7);
+}
+
+.inactive{
+  color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+}
+.inactive:hover{
+  color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+}

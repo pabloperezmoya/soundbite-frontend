@@ -1,0 +1,34 @@
+
+
+.player-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .7rem;
+
+  min-width: 350px;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+.top-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bottom-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
