@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 import {deleteAudio, updateAudio, createShare} from '../API/audiosApi';
-import {TimesInfoEnd} from '../PlayerInfo';
 
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 
@@ -21,15 +20,8 @@ function AudioList({
   setSongs,
   loading,
   setPlayThis,
-  playThis,
-  setFetchAudios,
-  isPlaying,
-
-  // REQUIRE TOKEN
-  // MUST STOP PLAYING SONG
+  playThis
 }){
-  const url = "http://127.0.0.1:8000"
-  
   const [selected, setSelected] = useState(null);
   const [editing, setEditing] = useState(false);
   const [editSelected, setEditSelected] = useState(null);

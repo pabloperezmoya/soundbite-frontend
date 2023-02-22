@@ -8,14 +8,6 @@ import { UploadSongs } from "../UploadSongs";
 import { LoginForm, RegisterForm } from "../UserForm";
 
 import {getAllAudios} from "../API/audiosApi"
-import {verifyUser} from "../API/userApi"
-
-import LoaderAnimation from "../LoaderAnimation"
-
-
-
-import PermIdentityIcon from '@mui/icons-material/PermIdentity';
-import SearchIcon from '@mui/icons-material/Search';
 
 import "./styles.css";
 import { ShareComponent } from "../ShareComponent";
